@@ -68,7 +68,7 @@ async function run()
 	// flet roomId = "1234";
 
 		// const roomId = randomString({ length: 8 }).toLowerCase();
-		const roomId = "2hysdfm3";
+		const roomId = "broadcast";
 
 	let displayName =
 		urlParser.query.displayName || (cookiesManager.getUser() || {}).displayName;
