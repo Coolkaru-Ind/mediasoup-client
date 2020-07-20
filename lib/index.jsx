@@ -66,7 +66,7 @@ async function run() {
   // flet roomId = "1234";
 
   // const roomId = randomString({ length: 8 }).toLowerCase();
-  const roomId = "broadcast";
+  const roomId = "Broadcast";
 
   let displayName = "front door";
   //urlParser.query.displayName || (cookiesManager.getUser() || {}).displayName;
@@ -75,7 +75,7 @@ async function run() {
   const useSharingSimulcast = urlParser.query.sharingSimulcast !== "false";
   const forceTcp = urlParser.query.forceTcp === "true";
   const produce = true; //urlParser.query.produce !== "false";
-  const consume = false; //urlParser.query.consume !== "false";
+  const consume = true; //urlParser.query.consume !== "false";
   const forceH264 = urlParser.query.forceH264 === "true";
   const forceVP9 = urlParser.query.forceVP9 === "true";
   const svc = urlParser.query.svc;
