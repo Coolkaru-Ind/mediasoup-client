@@ -68,8 +68,9 @@ async function run() {
   // const roomId = randomString({ length: 8 }).toLowerCase();
   const roomId = "Broadcast";
 
-  let displayName = "front door";
-  //urlParser.query.displayName || (cookiesManager.getUser() || {}).displayName;
+  let displayName = //"front door";
+          urlParser.query.displayName || 'First Door';
+          //urlParser.query.displayName || (cookiesManager.getUser() || {}).displayName;
   const handler = urlParser.query.handler;
   const useSimulcast = urlParser.query.simulcast !== "false";
   const useSharingSimulcast = urlParser.query.sharingSimulcast !== "false";
